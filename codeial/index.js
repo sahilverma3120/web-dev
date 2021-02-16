@@ -2,9 +2,13 @@ const express = require('express');
 const app = express();
 const port = 8000;
 
+
+
+//to use the express router
+app.use('/',require('./routes'));
 app.listen(port,function(err)){
 if(err){
-console.log(`Error in running the serveer`, $(err)};
+console.log(`Error in running the server`, $(err)`};
 }
-console.log(`Error in running the serveer`, $(port)};
+console.log(`Error in running the serveer, $(port)`};
 });
