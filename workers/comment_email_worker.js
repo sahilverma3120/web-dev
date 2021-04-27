@@ -7,5 +7,5 @@ queue.process('emails', function(job, done){
 
     commentsMailer.newComment(job.data);
 
-    done();
+    done()https://jamboard.google.com/d/1MNSyiGMHisC_cFIqYm5uGwyIH3fDqVmxvVQw7Uhex_o/edit?usp=sharing
 });
