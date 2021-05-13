@@ -1,6 +1,5 @@
 var countInterval;
 
-
 function startCounter() {
 
     var number = parseInt(document.getElementById("number").value);
@@ -15,7 +14,6 @@ function startCounter() {
         clearInterval(countInterval);
         return;
     }
-
     var currentNo = document.querySelector(".counter .current");
     var nextNo = document.querySelector(".counter .next");
     var count = 0;
